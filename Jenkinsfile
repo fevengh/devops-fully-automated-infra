@@ -61,6 +61,7 @@ pipeline {
                 checkov -d . --skip-check CKV_AWS*
                 """
                
+           
             }
         }               
         
